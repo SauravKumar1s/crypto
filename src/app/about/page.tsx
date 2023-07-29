@@ -28,7 +28,7 @@ const About: React.FC<AboutProps> = () => {
           title="Working with Regulators"
           description="With fully segregated bankruptcy-remote accounts, assets held in custody would be returned to their rightful owners even if the custodial trust became insolvent."
           image="/content1.png"
-          imageOrderClass="float-left"
+          imageOrderClass="float-left "
           button="User Protection"
         />
       </div>

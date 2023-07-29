@@ -6,8 +6,8 @@ const Hero: React.FC<NavbarProps> = () => {
   return (
     <nav className="bg-white  text-sm ">
               <div className="flex items-center gap-3 p-10 landing h-[70vh] ">
-          <div className="basis-1/2 font-semibold pb-10 px-10">
-            <h1 className=" text-[56px] leading-[72px]  max-w-[40rem]">
+          <div className="md:basis-1/2 font-semibold pb-10 sm:px-10">
+            <h1 className=" md:text-[56px] text-xl leading-[72px]  md:max-w-[40rem]">
             Welcome to Binance
             </h1>
            

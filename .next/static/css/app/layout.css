@@ -1242,6 +1242,14 @@ video {
     order: 2;
   }
 
+  .sm\:order-1 {
+    order: 1;
+  }
+
+  .sm\:float-left {
+    float: left;
+  }
+
   .sm\:mb-0 {
     margin-bottom: 0px;
   }
@@ -1352,6 +1360,10 @@ video {
 }
 @media (min-width: 768px) {
 
+  .md\:float-left {
+    float: left;
+  }
+
   .md\:mx-10 {
     margin-left: 2.5rem;
     margin-right: 2.5rem;
@@ -1417,6 +1429,10 @@ video {
     padding: 1rem;
   }
 
+  .md\:p-10 {
+    padding: 2.5rem;
+  }
+
   .md\:px-10 {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
@@ -1424,6 +1440,10 @@ video {
 
   .md\:text-left {
     text-align: left;
+  }
+
+  .md\:text-end {
+    text-align: end;
   }
 
   .md\:text-2xl {

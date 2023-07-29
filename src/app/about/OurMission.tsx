@@ -5,10 +5,10 @@ type Props = {};
 
 const OurMission = (_props: Props) => {
   return (
-    <nav className=" text-sm mt-10 px-10" >
-      <div className="flex items-center gap-3 p-10  ">
+    <nav className="text-sm mt-10 px-10" >
+      <div className="flex items-center gap-3 md:p-10  ">
         <div className=" font-semibold pb-10">
-          <h1 className=" text-[56px] leading-[72px]  max-w-[40rem]">
+          <h1 className="text-[56px] leading-[72px]  md:max-w-[40rem]">
             Our Mission
           </h1>
 
