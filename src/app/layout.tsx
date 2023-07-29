@@ -1,6 +1,6 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { IBM_Plex_Sans, Inter } from 'next/font/google'
+import { IBM_Plex_Sans } from 'next/font/google'
 
 import Navbar from './components/Navbar'
 import Footer from './components/footer/Footer'
