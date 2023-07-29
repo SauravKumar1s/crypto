@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.goldenText{
+  background: linear-gradient(180deg,#F0B90B 33.33%,#FBDA3C 100%);
+}
+.landing{
+  background: url("/Landing.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+
+}
