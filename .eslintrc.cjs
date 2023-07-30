@@ -9,15 +9,7 @@ module.exports = {
   ignorePatterns: ['dist', '.eslintrc.cjs'],
   parser: '@typescript-eslint/parser',
   plugins: ['react-refresh'],
-  rules: {
-    '@typescript-eslint/ban-types': [
-        'error',
-        {
-            extendDefaults: true,
-            types: {
-                '{}': false,
-            },
-        },
-    ],
-},
+  "rules": {
+    "@typescript-eslint/ban-types": "error"
+  }
 }
