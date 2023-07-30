@@ -1,9 +1,8 @@
 import React from "react";
 import Button from "../components/button/Button";
 
-type Props = {};
 
-const OurMission = (_props: Props) => {
+const OurMission = () => {
   return (
     <nav className="text-sm mt-10 px-10" >
       <div className="flex items-center gap-3 md:p-10  ">

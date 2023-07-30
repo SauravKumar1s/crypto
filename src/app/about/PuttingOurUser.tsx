@@ -1,8 +1,7 @@
 import React from 'react'
 
-type Props = {}
 
-const PuttingOurUser = (props: Props) => {
+const PuttingOurUser = () => {
   return (
     <div>PuttingOurUser</div>
   )

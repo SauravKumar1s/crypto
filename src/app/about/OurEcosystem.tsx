@@ -1,9 +1,7 @@
 import React from 'react'
 import BinanceIcon from '../components/Icon/BinanceIcon'
 
-type Props = {}
-
-const OurEcoSystem = (_props: Props) => {
+const OurEcoSystem = () => {
   return (
     <nav className="text-sm sm:px-10">
       <div className="flex items-center gap-3 p-10  ">

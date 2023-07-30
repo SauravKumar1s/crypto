@@ -5,9 +5,9 @@ import OurEcoSystem from "./OurEcosystem";
 import ContentCard from "../components/card/ContentCard";
 import Testimonial from "./Testimonial";
 
-type AboutProps = {};
 
-const About: React.FC<AboutProps> = () => {
+
+const About = () => {
   return (
     <div>
       <Hero />
