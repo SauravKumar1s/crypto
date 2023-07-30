@@ -1,8 +1,6 @@
-import React from "react";
+import React from 'react'
 
-type NavbarProps = {};
-
-const Hero: React.FC<NavbarProps> = () => {
+const Hero = () => {
   return (
     <nav className="bg-white  text-sm ">
       <div className="flex items-center gap-3 p-10 landing h-[70vh] ">
@@ -16,7 +14,7 @@ const Hero: React.FC<NavbarProps> = () => {
         </div>
       </div>
     </nav>
-  );
-};
+  )
+}
 
-export default Hero;
+export default Hero
