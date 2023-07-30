@@ -10,6 +10,13 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   plugins: ['react-refresh'],
   "rules": {
-    "@typescript-eslint/ban-types": "error"
+    "@typescript-eslint/ban-types": ["error", {
+      "types": {
+        "{}": "Don't use `{}` as a type. Use more specific types instead.",
+        "object": "Avoid using the 'object' type. Use more specific types instead."
+        // Add more banned types if desired
+      }
+    }]
   }
+  
 }
